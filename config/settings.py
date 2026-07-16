@@ -17,6 +17,7 @@ ACHIEVEMENTS_DIR = DATA_DIR / "achievement_percentages"
 STEAMSPY_DIR = DATA_DIR / "steamspy"
 
 SILVER_DIR = DATA_DIR / "silver"
+GOLD_DIR = DATA_DIR / "gold"
 
 
 REQUEST_TIMEOUT = 10

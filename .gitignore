@@ -1,4 +1,6 @@
 .env
 .venv
 uv.lock
-__pycache__
+__pycache__/
+data/
+run_collectors.bat

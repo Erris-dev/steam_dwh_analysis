@@ -7,13 +7,15 @@ Run from the project root:
 """
  
 from app.ingestion.load_bronze import load_bronze
+from app.transform.load_silver import load_silver
+from app.gold.load_gold import load_gold
  
  
 def main():
     load_bronze()
-    # Later: load_silver(), load_gold()
- 
- 
+    load_silver()
+    load_gold()
+  
 if __name__ == "__main__":
     main()
  
